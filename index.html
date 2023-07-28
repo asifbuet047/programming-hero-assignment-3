@@ -119,25 +119,25 @@
             <!---Fruit lower part-->
             <div
                 class="absolute w-10/12 top-[510px] left-[122px] border-4 border-white rounded-lg bg-white flex justify-between shadow-xl">
-                <div class="flex-col">
+                <div class="flex flex-col justify-center items-center">
                     <img src="images/fruit1.png" alt="">
                     <h2>Grape</h2>
                 </div>
-                <div class="flex-col">
+                <div class="flex flex-col justify-center items-center">
                     <img src="images/fruit2.png" alt="">
                     <h2>Orange</h2>
                 </div>
-                <div class="flex-col">
+                <div class="flex flex-col justify-center items-center">
                     <img src="images/fruit3.png" alt="">
                     <h2>Mango</h2>
                 </div>
-                <div class="flex-col">
+                <div class="flex flex-col justify-center items-center">
                     <img src="images/fruit4.png" alt="">
                     <h2>Strawberry</h2>
                 </div>
-                <div class="flex-col">
+                <div class="flex flex-col justify-center items-center">
                     <img src="images/fruit5.png" alt="">
-                    <h2>Mango</h2>
+                    <h2>Pomegranate</h2>
                 </div>
             </div>
         </section>
@@ -201,21 +201,24 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
                         <h2 class="primary_color" onclick="modal.showModal()">Details</h2>
-
                         <dialog id="modal" class="modal">
-                            <form method="dialog" class="modal-box">
-                                <img src="images/fruit6.png" alt="" class="border-2 border-red-800" />
-                                <h1 class="text-5xl">Apple</h1>
-                                <div>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star-half-stroke"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                                <img src="images/fruit6.png" alt="" class="" />
+                                <h1 class="text-5xl font-extrabold mt-6">Apple</h1>
+                                <h1 class="text-xl font-medium mt-6 text-center">An apple is a round, edible fruit
+                                    produced by
+                                    an apple tree</h1>
+                                <div class="mt-6">
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-regular fa-star-half-stroke primary_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
                                 </div>
-                                <div class="modal-action">
+                                <div class="modal-action mt-16">
                                     <!-- if there is a button in form, it will close the modal -->
-                                    <button class="btn btn-outline border-[#F85559] text-[#F85559]">Close</button>
+                                    <button
+                                        class="btn btn-outline border-1 border-[#F85559] text-[#F85559]">Close</button>
                                     <button class="btn bg-[#F85559] text-white">Buy Now</button>
                                 </div>
                             </form>
@@ -245,7 +248,28 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
-                        <h2 class="primary_color">Details</h2>
+                        <h2 class="primary_color" onclick="modal1.showModal()">Details</h2>
+                        <dialog id="modal1" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                                <img src="images/fruit7.png" alt="" class="" />
+                                <h1 class="text-5xl font-extrabold mt-6">Orange</h1>
+                                <h1 class="text-xl font-medium mt-6 text-center">An orange is a fruit of various citrus
+                                    species in the family Rutaceae</h1>
+                                <div class="mt-6">
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-regular fa-star-half-stroke primary_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                </div>
+                                <div class="modal-action mt-16">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-outline border-1 border-[#F85559] text-[#F85559]">Close</button>
+                                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
 
@@ -270,7 +294,28 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
-                        <h2 class="primary_color">Details</h2>
+                        <h2 class="primary_color" onclick="modal2.showModal()">Details</h2>
+                        <dialog id="modal2" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                                <img src="images/fruit8.png" alt="" class="" />
+                                <h1 class="text-5xl font-extrabold mt-6">Red Dragon</h1>
+                                <h1 class="text-xl font-medium mt-6 text-center">A pitaya or pitahaya is the fruit of
+                                    several different cactus species indigenous to the region of southern Mexico </h1>
+                                <div class="mt-6">
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-regular fa-star-half-stroke primary_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                </div>
+                                <div class="modal-action mt-16">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-outline border-1 border-[#F85559] text-[#F85559]">Close</button>
+                                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
 
@@ -295,7 +340,29 @@
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
                         </div>
-                        <h2 class="primary_color">Details</h2>
+                        <h2 class="primary_color" onclick="modal3.showModal()">Details</h2>
+                        <dialog id="modal3" class="modal">
+                            <form method="dialog" class="modal-box flex flex-col justify-center items-center">
+                                <img src="images/fruit9.png" alt="" class="" />
+                                <h1 class="text-5xl font-extrabold mt-6">Banana</h1>
+                                <h1 class="text-xl font-medium mt-6 text-center">A banana is an elongated, edible fruit
+                                    – botanically a berry – produced by several kinds of large herbaceous flowering
+                                    plants in the genus Musa. </h1>
+                                <div class="mt-6">
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-solid fa-star primary_color"></i>
+                                    <i class="fa-regular fa-star-half-stroke primary_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                    <i class="fa-regular fa-star star_color"></i>
+                                </div>
+                                <div class="modal-action mt-16">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button
+                                        class="btn btn-outline border-1 border-[#F85559] text-[#F85559]">Close</button>
+                                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
             </div>
